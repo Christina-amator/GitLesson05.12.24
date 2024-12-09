@@ -1,0 +1,71 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1.title {
+    color: #4CAF50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+#main-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+}
+
+#main-nav .nav-link:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Стилі для секцій */
+#about-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-img {
+    width: 300px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+}
+
+#contact-section {
+    text-align: center;
+    padding: 20px;
+}
+
+#gallery-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+}
